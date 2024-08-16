@@ -22,7 +22,13 @@
 
 <script type="text/babel">
     const Main = () => {
-        return <div>Hello World! This is main tag.</div>
+        return (
+            // This is main section
+            <div className="test-class">
+                Hello World! This is main tag.
+                <span>Testing Parent Element.</span>
+            </div>
+        )
     }
 
     let rootContainer = document.getElementById('main');
